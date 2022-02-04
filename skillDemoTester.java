@@ -5,7 +5,7 @@ import org.junit.*;
 public class skillDemoTester {
     @Test 
     public void testSubtract() {
-        assertEquals("Subtraction test fails!",3,skillDemo.subtract(3, 1)); 
-        // test should fail
+        assertEquals("Subtraction test fails!",2,skillDemo.subtract(3, 1)); 
+        // test should pass 
     }
 }
